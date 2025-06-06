@@ -1,0 +1,21 @@
+.PrecioAnt{
+
+    background: rgb(64, 64, 65);
+    font-weight: bolder;
+}
+
+.PorcVenta{
+
+    background: rgb(120, 140, 116);
+    font-weight: bolder;
+    color:black;
+    border: 1px solid black;
+}
+
+.PrecioCompra{
+
+    background: rgb(92, 96, 151);
+    font-weight: bolder;
+    color:black;
+    border: 1px solid black;
+}

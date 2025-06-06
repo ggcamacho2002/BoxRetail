@@ -1,0 +1,4 @@
+input:invalid {
+  background-color: indianred;
+  border: 1px solid rgb(154, 21, 21);
+}

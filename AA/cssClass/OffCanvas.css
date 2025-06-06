@@ -1,0 +1,53 @@
+.offcanvas-InBox {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 50px);
+  border: 1px solid #353536;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 2;
+  background-color: #1b1c1d;
+  border-top-right-radius: 10px;
+  border-left: 0px;
+  }
+  
+.offcanvas.show {
+    left: 0;
+
+ }
+.offcanvas-header{
+display: flex;
+flex-direction: row;
+background-color: #212529 !important;
+color: whitesmoke;
+border-top-right-radius: 10px;
+height: 35px;
+justify-content: center;
+align-items: center;
+}
+
+.offcanvas-Headertitle{
+ margin-left: 5px;
+ width: -moz-available;
+}
+
+.offcanvas-HeaderCtrl{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.offcanvas-HeaderCtrl .btn{
+  margin-left: 5px;
+}
+.offcanvas-body{
+  height: calc(100% - 35px);
+}
+.container-fluid{background-color: #212529!important; color:whitesmoke;}
+
+
+.offcanvas-HeaderClose{
+margin-right: 5px;
+
+}

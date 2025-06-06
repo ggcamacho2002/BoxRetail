@@ -1,0 +1,78 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #2c3034!important;
+    color: whitesmoke;   
+    border: 1px solid rgb(73, 72, 77); 
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card-header{
+    background-color: #212529 !important;
+    height: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.card-header-ctrl{
+    font-size: 12px;
+}
+.card-header-ctrl form{
+    display: contents;
+}
+.card-titulo{
+    margin-left: 10px;
+    white-space: nowrap;    
+    font-size: 12px;
+}
+.card-subtitulo{
+display: flex;
+justify-content: center;
+color: rgb(138, 135, 172);
+font-size: 14px;
+width: 90%;    
+}
+.card-HeaderCenter{
+width: 100%;
+display: flex;
+justify-content: center;
+    
+}
+
+.card-body{
+    height:calc(100% - 35px);
+}
+
+.CardFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+.CardBoxCtrl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+     width: 100%;
+     height: 100%;
+  }
+
+  .CardBoxCtrl button{
+     height: 80%;
+     margin-bottom: 10px;
+     font-size: 12px !important;
+  }
+
+  
