@@ -1,6 +1,6 @@
 @echo off
-cd /d C:\ruta\a\tu\repositorio
+cd /d C:\AppServ\www\boxretail
 git add .
-git commit -m "Actualización automática"
+git commit -m "Actualizacion automatica"
 git push
 pause
